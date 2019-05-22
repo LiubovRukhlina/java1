@@ -62,7 +62,7 @@ public class GeoRoute implements Distance, Comparable<GeoRoute> {
 		return routeDistance;
 	}
 	
-	@Override
+	
 	public int compareTo (GeoRoute other) {
 		if (getDistance() < other.getDistance()) {
 			return -1;
